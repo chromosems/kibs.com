@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- Banner area -->
+<section class="banner_area" data-stellar-background-ratio="0.5">
+    <h2>FIRE SYSTEMS</h2>
+    <ol class="breadcrumb">
+        <li><a href="home">Home</a></li>
+        <li><a href="service" class="active">Services </a></li>
+    </ol>
+</section>
+<!-- End Banner area -->
+
+<!-- Building Construction Area -->
+<section class="building_construction_area">
+    <div class="container">
+        <div class="row building_construction_row">
+            <div class="col-sm-8 constructing_laft">
+                <h2>Fire Systems</h2>
+                <img src="{% static 'website/images/fire2.png' %}" alt="">
+                <a href="#">Fire Systems</a>
+                <p>The fire alarm system consists of smoke detectors, heat detectors, glass break switches and blizzers
+                    which are connected to control panels. In case there is a fire, the siren/bell goes off (makes noise
+                    )which alerts the user .this system has got a backup battery which can work for long hours when
+                    power is off We supply fire fighting equipments and gears such as fire extinguishers etc .fire alarm
+                    systems designed to detect fire out break are categorized into two.
+
+                   .</p>
+                <div class="col-md-6 ipsum">
+                    <p>KIBS promotes safety and security to protect life and property across major industries namely
+                        residential and commercial facilities, oil and gas refineries, airports and aviation, health
+                        care and education, military and police, hospitality and leisure..</p>
+                </div>
+                <div class="col-md-6 ipsum_img"><img src="{% static 'website/images/fire3.jpg' %}" alt="">
+                </div>
+                <div class="col-md-12 p0">
+
+                </div>
+            </div>
+            <div class="col-sm-4 constructing_right">
+
+                <div class="contact_us">
+                    <h4>Contact Us</h4>
+                    <a href="#" class="contac_namber">0312114905</a>
+                    <a href="#" class="contac_namber">+256 0701181576</a>
+                    <p>we would love to hear from you</p>
+                    <a href="contact" class="button_all">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Building Construction Area -->
+
+<!-- Our Featured Works Area -->
+
+{% endblock %}

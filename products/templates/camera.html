@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- Banner area -->
+<section class="banner_area" data-stellar-background-ratio="0.5">
+    <h2>SURVEILLANCE CAMERA SYSTEMS</h2>
+    <ol class="breadcrumb">
+        <li><a href="/">Home</a></li>
+        <li><a href="service" class="active">Services </a></li>
+    </ol>
+</section>
+<!-- End Banner area -->
+
+<!-- Building Construction Area -->
+<section class="building_construction_area">
+    <div class="container">
+        <div class="row building_construction_row">
+            <div class="col-sm-8 constructing_laft">
+                <h2>Surveillance Cameras</h2>
+                <img src="{% static 'website/images/cam1.jpg' %}" alt="">
+                <a href="#">Surveillance Cameras</a>
+                <p>CCTV Cameras, Surveillance cameras monitors, records and stores events. The system comprises of a
+                    Digital Video Recorder (DVR)/ Network Video Recorder (NVR) that processes the recordings to HD( high
+                    definition) visual signal stream. Particular cameras are used for specific accusation that is the
+                    system operates day and night (24hrs), In this case infrared cameras are used, and we supply and
+                    install a wide range of security cameras e.g. Speed Dome Cameras (Pan Tilt Zoom), HD Bullet Cameras
+                    ( outdoor), IP Cameras, SPY Cameras, Wireless Cameras, HD Dome Cameras ( indoor)</p>
+
+                <div class="col-md-6 ipsum">
+                    <p>The CCTV system can be operated remotely through wireless connection (Internet) .It is possible
+                        via computer and mobile phone (Smart phone). The video servers have fast genuine adaptors that
+                        link surveillance system to the IP/TPC network. The system supports local network connectivity
+                        and wide area; it has a server that transmits via TCP/IP and Modem. Remote viewing is done via,
+                        remote playback client, multicam remote view and the web browsers through the Internet or
+                        inthnet.</p>
+                </div>
+                <div class="col-md-6 ipsum_img"><img src="{% static 'website/images/spy.jpg' %}" alt="">
+                </div>
+
+            </div>
+            <div class="col-sm-4 constructing_right">
+
+                <div class="contact_us">
+                    <h4>Contact Us</h4>
+                    <a href="#" class="contac_namber">0312114905</a>
+                    <a href="#" class="contac_namber">+256 0701181576</a>
+                    <p>we would love to hear from you</p>
+                    <a href="contact" class="button_all">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Building Construction Area -->
+
+<!-- Our Featured Works Area -->
+
+<!-- End Our Team Area -->
+{% endblock %}

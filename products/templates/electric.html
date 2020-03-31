@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- Banner area -->
+<section class="banner_area" data-stellar-background-ratio="0.5">
+    <h2>ELECTRIC FENCING</h2>
+    <ol class="breadcrumb">
+        <li><a href="/">Home</a></li>
+        <li><a href="service" class="active">Services </a></li>
+    </ol>
+</section>
+<!-- End Banner area -->
+
+<!-- Building Construction Area -->
+<section class="building_construction_area">
+    <div class="container">
+        <div class="row building_construction_row">
+            <div class="col-sm-8 constructing_laft">
+                <h2>Electric Fencing</h2>
+                <img src="{% static 'website/images/' %}" alt="">
+                <a href="#">Electric fencing</a>
+                <p>These are mainly external security systems to prevent passage of humans to your premises, it consists
+                    of the following, Ordinary Razor Wire Fencing, This is of three sizes that is large, medium and
+                    small, (730mm), (600mm) and (450mm)Respectively .Razor wire is designed with sharp ripper galvanized
+                    razor blades and stainless steel.</p>
+
+
+                <div class="col-md-6 ipsum">
+                    <p>This can be used as standalone fence or attached to existing perimeter fencing. This consists of
+                        galvanized high tense wire an energizer with siren, strobe light, backup battery and key pad for
+                        arming and disarming system. All fencing systems have been manufactured to exceed European
+                        standards. If you need help in selecting the correct fencing system that will best suit your
+                        application you are free to contact our well trained staff to assist you immediately.</p>
+                </div>
+                <div class="col-md-6 ipsum_img"><img src="{% static 'website/images/' %}" alt="">
+                </div>
+                <div class="col-md-12 p0">
+
+                </div>
+            </div>
+            <div class="col-sm-4 constructing_right">
+
+                <div class="contact_us">
+                    <h4>Contact Us</h4>
+                    <a href="#" class="contac_namber">0312114905</a>
+                    <a href="#" class="contac_namber">+256 0701181576</a>
+                    <p>we would love to hear from you</p>
+                    <a href="contact" class="button_all">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Building Construction Area -->
+
+
+{% endblock %}
